@@ -1,0 +1,37 @@
+.header{
+    width: 95%;
+    height: 5.3rem;
+    margin-top: 1rem;
+    font-weight: 800;
+    font-family: inherit;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0,0.75);
+}
+
+.link-header{
+    margin: 0.7rem;
+    padding: 0.7rem;
+    font-family: inherit;
+    font-weight: 999;
+
+    text-decoration: none;
+    color: #FFF;
+
+    border-radius: 5px;
+    border-width: 0.5rem;
+    background-color: black;
+
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255, 0.3);
+}
+
+.link-header:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 13px 3px rgba(255,255,255, 0.3);
+} 
